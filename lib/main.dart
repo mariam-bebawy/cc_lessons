@@ -16,8 +16,12 @@ class HomePage extends StatelessWidget {
         title: Text("sketchy vibes"),
         backgroundColor: Colors.red[300],
       ),
-      body: Center(
-        child: Image.asset("assets/images/bowling.jpg"),
+      body: Container(
+        color: Colors.grey[300],
+        margin: EdgeInsets.all(30.0),
+        padding: EdgeInsets.all(40.0),
+        child: Container(color: Colors.red[300],),
+        // child: Image.asset("assets/images/bowling.jpg"),
         // child: IconButton(
         //   onPressed: () { print("icon button pressed ! ..."); },
         //   icon: Icon(Icons.mail),
